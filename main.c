@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void initialize()
+static void system_initialize()
 {
 
 }
 
-
 int main()
 {
-    initialize();
+    system_initialize();
+    
     return 0;
 }
