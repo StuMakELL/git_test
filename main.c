@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-static void dev_func()
+static void func1()
 {
+
 }
 
 static void system_initialize()
@@ -14,7 +15,8 @@ int main()
 {
     system_initialize();
 
-    while (true)
+    func1();
+    while(true)
     {
         dev_func();
     }
