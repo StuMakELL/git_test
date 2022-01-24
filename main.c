@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static void system_initialize()
+static void soc_init()
 {
-
 }
 
 int main()
 {
-    system_initialize();
+    soc_init();
     
     return 0;
 }
